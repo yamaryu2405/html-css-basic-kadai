@@ -1,0 +1,129 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color:#192350;
+	color: #ffffff;
+}
+.header-p {
+	color: white;
+}
+.header-a3 {
+	color: #192350;
+	background-color: #ffffff;
+	border-radius: 10%;
+	margin-right: 4px;
+}
+.p-shyamei {
+	position: relative;
+    right: 460px;    
+}
+.header-ul {
+	display: flex;
+	list-style: none;
+}
+header a {
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px;
+}
+.navi {
+	display: flex;
+	justify-content: center;
+	list-style: none;	
+}
+.navi a{
+	margin: 0 20px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+.navi a:visited {
+	color: #551A8B;
+}
+.mainvisual {
+	position: relative;
+}
+.mainvisual-div {
+	position: absolute;
+	top: 50%;
+	left: 40%;	
+	
+}
+.mainvisual-img {
+	width: 100%;
+	z-index: 8;
+}
+.ABOUTUS  {
+	display: flex;
+	justify-content: center;
+}
+.ABOUTUS-ul {
+	display: flex;	
+}
+.ABOUTUS-li {
+	width: 100%;
+	margin: 10px;
+	position: relative;
+}
+.ABOUTUS-img{
+	width: 100%;
+	
+}
+.ABOUTUS-div{
+	margin-right: 100px;
+}
+.ABOUTUS-p {
+	width: 50%;
+}
+.ABOUTUS-div1 {
+	position: relative;
+	top: 0%;
+}
+.ABOUTUS-div2 {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	color: #ffffff;
+}
+.kuwasikumiru {
+	background-color: blue;
+	width: 1000px;
+	margin: 0 auto;
+}
+.kuwasikumiru-p {
+	color: #ffffff;
+	text-align: center;
+}
+.NEWS {
+	background-color: #cccccc;
+	margin: 0%;
+}
+.NEWS-shyasin {
+	display: flex;
+}
+.NEWS-img {
+	width: 100%;
+
+}
+.NEWS-shyasin-kobetu{
+	width: 30%;
+	margin: 20px;
+}
+.footer {
+	display: flex;
+	background-color: #192350;
+	color: #ffffff;
+}
+.footer-link {
+	list-style: none;
+}
+.footer-link a {
+	list-style: none;
+	color: #ffffff;
+	text-decoration: none;
+}
+.footer-shyoukai {
+	list-style: none;
+}
+.footer-shyoukai::before{
+	content: "-";
+}
