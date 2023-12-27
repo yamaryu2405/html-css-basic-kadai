@@ -95,8 +95,24 @@
 .mainir-div1 {
 	display: flex;
 	flex-wrap: wrap;
+	width: 980px;
+	margin: auto;
 }
 .mainir-p2 {
 	text-align: center;
 	width: 100%;
+}
+.main-irdiv {
+	width: 20%;
+}
+.main-irimg {
+	width: 100%;
+	align-items: center;
+}
+.sustain-div {
+	display: flex;
+	justify-items: center;
+	align-items: center;
+	width: 50%;
+	margin: auto;
 }
