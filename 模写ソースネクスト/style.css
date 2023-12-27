@@ -109,10 +109,52 @@
 	width: 100%;
 	align-items: center;
 }
-.sustain-div {
+.sustain-a {
 	display: flex;
-	justify-items: center;
+	justify-content: center;
 	align-items: center;
 	width: 50%;
 	margin: auto;
+	color: black;
+	border-top: solid;
+	border-bottom: solid;
 }
+.otoiawase-div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 50%;
+	margin: 0 auto;
+}
+.otoiawase-p2 {
+	width: 100%;
+	text-align: center;
+}
+.otoiawase-ul{
+	width: 100%;
+	list-style: none;
+	text-align: center;
+}
+.footer-div {
+	display: flex;
+	flex-wrap: wrap;
+	width: 50%;
+	margin: 0 auto;
+}
+.footer-main {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	list-style: none;
+}
+.footer-sub {
+	width: 100%;
+	text-align: center;
+}
+.footer-copyrihgt{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+}
+
+
