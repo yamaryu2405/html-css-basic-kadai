@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+}
+header>nav {
+	display: flex;
+	
+}
+.nav-logo {
+	display: flex;
+	width: 288px;
+	align-items: center;
+}
+.nav-logo-h1 {
+	background-color: #004086;
+	margin: 0 0;
+	box-sizing: border-box;
+}
+.a-logomark {
+	background-color: #004086;
+}
+.a-logotext {
+	margin-left: 10px;
+}
+.logomark {
+	background-color: #004086;
+}
+.nav-ul {
+	display: flex;
+	list-style: none;
+}
+.nav-ul li {
+	margin: 0 10px;
+	text-decoration: none;
+}
+.nav-ul a {
+	text-decoration: none;
+	font-size: 12px;
+}
+.li-a-mazak {
+	background-color: orange;
+}
+.search {
+	position: relative;
+	z-index: 10;
+}
+.search-submit {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 11;
+}
+/* マインビジュアル */
+.mainvisual-sub {
+	width: 30%;
+	margin-left: 50px;
+}
+.mainvisual-main{
+	width: 100%;
+}
+/* プロダクト */
+.product {
+	width: 95%;
+	background-color: #FEF5EB;
+}
+.product-h1 {
+	font-size: 50px;
+	color: #f47e00;
+	margin-bottom: 0;
+	margin-left: 100px;
+}
+.product-h2 {
+	margin-top: 0;
+	margin-left: 100px;
+}
+.product-main {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 50px;
+}
+.product-main-li{
+	width: 20%;
+	margin: 10px;
+	border: 1px solid #c8c8c8;
+	background: #fff;
+	border-radius: 8px;	
+	list-style: none;
+	position: relative;
+}
+.product-main-li a {
+	text-decoration: none;
+}
+.product-img {
+	width: 100%;
+}
+/* コーポレートインフォメーション */
+.corp-info-h1 {
+	margin-left: 100px;
+	margin-bottom: 0;
+	text-align: left;
+	font-size: 40px;
+	font-weight: bold;
+	color: #f47e00;
+	line-height: 1.1
+}
+.corp-info-h4 {
+	margin-top: 0;
+	margin-left: 100px;
+}
+.corp-table {
+	margin-left: 100px;
+	text-align: left;
+}
+.corp-th {
+	width: 260px;
+	padding-top: 50px;
+	padding-bottom:50px;
+	border-bottom:2px dotted #C8C8C8;
+}
+.corp-td {
+	width: 1000px;
+	border-bottom: 2px dotted #C8C8C8;
+	padding: 20px 0;
+}
+/* ファイナンシャルインフォメーション */
+.financial {
+	width: 100%;
+	background-color: #FEF5EB;
+	margin-top: 200px;
+	margin-right: 0;
+	margin-left: 30px;
+	padding-top: 100px;
+}
+.financial-table {
+}
+.access {
+	display: flex;
+}
+.access>img{
+	width: 40%;
+	margin-left: 100px;
+}	
