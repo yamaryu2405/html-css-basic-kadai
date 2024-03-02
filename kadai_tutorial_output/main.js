@@ -45,7 +45,7 @@ const keyPredd =e=>{
 		//100ms後に背景色を元に戻す
 		setTimeout(()=>{
 			wrap.classList.remove('mistyped');
-		},1000);
+		},100);
 		return;
 	}
 	//正タイプの場合
@@ -100,7 +100,7 @@ const timer =()=>{
 		if(time <=0){
 			gameOver(id);
 		}
-	},100);
+	},1000);
 };
 
 start.addEventListener('click',()=>{
