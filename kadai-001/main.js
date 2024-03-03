@@ -102,6 +102,8 @@ const timer =()=>{
 
 		if(time <=0){
 			gameOver(id);
+			typefield.textContent = '';
+			untypedfield.textContent ='タイムアップ！';
 		}
 	},1000);
 };
