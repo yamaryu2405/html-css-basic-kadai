@@ -108,8 +108,8 @@ const gameOver = () => {
         if (result) {
             window.location.reload();
         }
-    }, 1); // setTimeoutを0ミリ秒で設定して、ほぼ即座に実行されるようにしますが、これによりconfirmの表示前にUIの更新が完了します。
-};
+    }, 10);
+}
 
 //カウントダウンタイマー
 const timer =()=>{
