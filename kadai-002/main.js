@@ -97,10 +97,9 @@ const rankCheck =score=>{
 const gameOver = () => {
     // ゲーム終了のメッセージを表示
 	typedfield.textContent = ''
-    untypedfield.textContent = 'タイムアップ';
+    untypedfield.textContent = 'タイムアップ!';
     
     // ランク判定と結果の表示
-	// 画面の更新が即座に反映されるように、setTimeoutを使ってランク判定とその結果の表示を非同期にする
     setTimeout(() => {
         const result = confirm(rankCheck(score));
 
